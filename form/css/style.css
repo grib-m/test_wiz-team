@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 40px 0 0;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form-group label{
+    width: 20%;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 80%
+}
+
+/* override select2 styles */
+.select2-selection,
+.select2-search__field{
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0 !important;
+    outline: none;
+}
+
+.select2-search__field:last-child{
+    border-top: 1px solid #f1f1f1 !important;
+}
+
+.select2-search__field:focus{
+    border-bottom: 1px solid #9cab74 !important;
+}
+
+.select2-dropdown {
+    top: 3px;
+    border: 1px solid #c7c7c7 !important;
+    border-radius: 0 !important; 
+}
+
+.select2-selection__arrow b{
+    display: none !important;
+}
+
+.select2-selection__arrow{
+    background: center / 60%  url(../img/arrow-down.png) no-repeat;
+}
+
+.select2-container--open .select2-selection__arrow {
+    background: center / 60%  url(../img/arrow-up.png) no-repeat;
+}
+
+.select2-results__option--highlighted[aria-selected] {
+    background: #add767 !important;
+    font-weight: 600;
+}
+.select2-results__option[aria-selected=true] {
+    background: #8cbe3b !important;
+}
+.select2-results__option {
+    padding-left: 20px !important;
+}

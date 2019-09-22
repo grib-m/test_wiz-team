@@ -1,0 +1,21 @@
+@media only screen and (max-width: 920px){
+    .grid {
+        width: 740px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .grid {
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .grid {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .column {
+        padding: 5px 2px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.0.10/dist/css/select2.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.0.10/dist/js/select2.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <select id="title"  class='js-title-list' name="form-title">
+                        <option>&nbsp;</option>
+                        <option value="mr">Mr.</option>
+                        <option value="mrs">Mrs.</option>
+                        <option value="professor">Professor</option>
+                        <option value="sheik">Sheik</option>
+                        <option value="prince">Prince</option>
+                        <option value="general">General</option>
+                        <option value="doctor">Doctor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="fname">First name:</label>
+                    <input type="text" name="first-name" value="" id="fname" />
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last name:</label>
+                    <input type="text" name="last-name" value="" id="lname" />
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select class='js-gender-list' id="gender" name="form_gender">
+                        <option value="male" selected>Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="test">Text:</label>
+                    <select class='js-test-list test-list' id='test' name='test'>
+                        <option value='0'>&nbsp;</option>
+                        <option value='1'>Test-01</option>
+                        <option value='2'>Test-02</option>
+                        <option value='3'>Test-03</option>
+                        <option value='4'>Test-04</option>
+                        <option value='5'>Test-05</option>
+                        <option value='6'>Test-06</option>
+                        <option value='7'>Test-07</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
